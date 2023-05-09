@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChiaOats">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chia" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tutorial"
+        android:layout_height="677dp">
+
+        <RelativeLayout
+            android:id="@+id/pushUps"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/cardwhitebackground">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:padding="13dp"
+                android:text="Chia and Oats Recipe"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="37dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_baseline_recipe" />
+
+            <TextView
+                android:id="@+id/steptitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:padding="5dp"
+                android:text="Step 1"
+                android:textColor="@color/black"
+                android:textSize="19dp"></TextView>
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/steptitle"
+                android:padding="10dp"
+                android:text="Set the oven temperature to 200°C/180°F/gas 6 and line the bottom of 4 x 185ml ramekins with a piece of baking paper before rapeseed oiling the sides. Put the milk in a jug and add water to create up to 300ml. Add the 2 teaspoons of oil, the lemon juice, and the vanilla. To get the mixture as fine as possible, combine the flour, seeds, and oats before processing in a food processor. Add the baking powder and stir."
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+            <TextView
+                android:id="@+id/steptitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1"
+                android:padding="5dp"
+                android:text="Step 2"
+                android:textColor="@color/black"
+                android:textSize="19dp"></TextView>
+
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/steptitle2"
+                android:padding="10dp"
+                android:text="Pour the liquid in and then whisk it in with a knife until you have a very moist batter that resembles dough. They don't need to be brown, but they should feel firm. Spoon equally into the ramekins and bake for 20 minutes, until risen. Cool for a few minutes, then carefully slide the scones out of the ramekins by running a knife along the interior of the ramekins."
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+            <TextView
+                android:id="@+id/steptitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step2"
+                android:padding="5dp"
+                android:text="Step 3"
+                android:textColor="@color/black"
+                android:textSize="19dp"></TextView>
+
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/steptitle3"
+                android:padding="5dp"
+                android:text="The scones can either be consumed right once or chilled and kept for later. Use two scones that have already been divided in half and serve them with half the yoghurt and two parts of the berries."
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar"
+        android:layout_below="@+id/tutorial"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       Ingredients"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:id="@+id/ingredients"
+            android:src="@drawable/ic_baseline_menu_book_24" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/bar">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

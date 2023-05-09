@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BMIactivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/malefemalefocus"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Age"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:hint="20"
+                    android:inputType="numberDecimal"
+                    android:textSize="30dp" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/malefemalefocus"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Weight (Kg)"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:hint="60 kg"
+                    android:inputType="numberDecimal"
+                    android:textSize="30dp" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp">
+
+        <TextView
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/malefemalefocus"
+            android:gravity="center"
+            android:text="Height"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/malefemalefocus"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Feet"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/feet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:hint="5"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/black"
+                    android:textSize="28dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inches"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/inch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:hint="10"
+                    android:inputType="numberDecimal"
+                    android:textSize="28dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/malefemalefocus"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Male"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_above="@+id/textmale"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/male"></ImageView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:id="@+id/female"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/malefemalefocus"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Female"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_above="@+id/textmale"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/female"></ImageView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/malefemalefocus"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="3dp">
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="BMI Calculator"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dontworry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="89dp"
+            android:layout_height="84dp"
+            android:layout_above="@+id/contentlayout"
+            android:layout_marginTop="75dp"
+            android:padding="20dp"
+            android:src="@drawable/ic_baseline_calculate_24">
+
+        </ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/calButton"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="105dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
+
+
+            <TextView
+                android:id="@+id/calculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:text="Calculate"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tutorial"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/graButton"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_height="30dp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
+
+
+            <TextView
+                android:id="@+id/graphbtn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:text="Graphview"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+
+            android:text="Fitness Care"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/bar">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

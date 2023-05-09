@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cut_card_background"
+    tools:context=".chart">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="58dp"
+            android:id="@+id/back"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="                        Fitness Care"
+            android:textColor="@color/black"
+            android:textSize="24dp" >
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_home_24" />
+
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/y_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tab"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="INPUT BMI"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textSize="24sp"></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_insert"
+        android:layout_below="@+id/y_value"
+        android:backgroundTint="@color/black"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:text="Insert"
+        android:layout_marginTop="12dp">
+
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_remove"
+        android:layout_below="@+id/y_value"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="@color/black"
+        android:text="Remove"
+        android:layout_marginTop="12dp">
+
+    </Button>
+
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_insert"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

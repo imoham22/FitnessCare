@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cut_card_background"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="58dp"
+            android:id="@+id/back"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+
+        <TextView
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:text="                              Fitness Care"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text=""/>
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/choice_layout"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="This is the question"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/choice_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/ans_A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:text="Ans A"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/ans_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:text="Ans B"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/total_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Questions "
+        android:layout_below="@id/choice_layout"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_button"
+        android:text="NEXT"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_below="@id/total_question"
+        android:layout_marginTop="50dp">
+
+    </Button>
+
+
+
+</RelativeLayout>

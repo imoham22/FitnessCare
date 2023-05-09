@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cut_card_background"
+    tools:context=".foodTip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="58dp"
+            android:id="@+id/back"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+
+        <TextView
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:text="Fitness Care"
+            android:layout_gravity="right"
+            android:layout_marginLeft="170dp"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text=""/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:id="@+id/tips"
+        android:background="@drawable/wb"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Fitness Tips"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_baseline_food_bank_24" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What makes a good Diet?"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="6dp"
+                android:text="See how to make a change through diet"
+                android:textColor="@color/black">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diet Suggestions"
+        android:textSize="18dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="210dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFC4AE"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/chia"
+                android:padding="8dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:text="Chia and Oats"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/cup" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="75dp"
+                    android:padding="3dp"
+                    android:text="Breakfast"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#B0AEFF"
+            android:layout_marginLeft="18dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:id="@+id/chicSal"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="49dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:text="Chicken Salad"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="75dp"
+                    android:padding="3dp"
+                    android:text="Lunch"
+                    android:textColor="@color/black"
+                    android:textSize="13dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="102dp"
+                    android:layout_height="78dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="70dp"
+                    android:src="@drawable/chickensal" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFD5AE"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:id="@+id/bburger"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="155dp"
+                    android:layout_height="49dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:text="Beef burger"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="75dp"
+                    android:padding="3dp"
+                    android:text="Dinner"
+                    android:textColor="@color/black"
+                    android:textSize="13dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="102dp"
+                    android:layout_height="78dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="58dp"
+                    android:src="@drawable/hburger" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            app:cardBackgroundColor="#AEDFFF"
+            android:layout_weight="1"
+            android:layout_marginLeft="18dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:id="@+id/cod"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="168dp"
+                    android:layout_height="88dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:text="Cod fish and  celeriac"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="75dp"
+                    android:padding="3dp"
+                    android:text="Dinner"
+                    android:textColor="@color/black"
+                    android:textSize="13dp">
+                </TextView>
+
+                <ImageView
+                    android:layout_width="102dp"
+                    android:layout_height="78dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="58dp"
+                    android:src="@drawable/codfish" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFF8AE"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:id="@+id/salmon"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="163dp"
+                    android:layout_height="49dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:text="Ginger and soy salmon "
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="75dp"
+                    android:padding="3dp"
+                    android:text="Dinner"
+                    android:textColor="@color/black"
+                    android:textSize="13dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="102dp"
+                    android:layout_height="78dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="58dp"
+                    android:src="@drawable/salmonfi" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#AEFFDA"
+            android:layout_marginLeft="18dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:id="@+id/wrap"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="154dp"
+                    android:layout_height="58dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:text="Chicken  Wrap"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="75dp"
+                    android:padding="3dp"
+                    android:text="Lunch"
+                    android:textColor="@color/black"
+                    android:textSize="13dp">
+                </TextView>
+
+                <ImageView
+                    android:layout_width="102dp"
+                    android:layout_height="78dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="58dp"
+                    android:src="@drawable/wrapchicken" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"
+            app:cardBackgroundColor="#E8ADFF"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:id="@+id/work"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="9dp"
+                    android:text="Look at Work Outs"
+                    android:layout_marginRight="70dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="24dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="78dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ic_baseline_fitness_center_24">
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+    </ScrollView>
+

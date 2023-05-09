@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeSplash">
+
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:fontFamily="sans-serif-black"
+        android:text="FitnessCare"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fullNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/banner"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/banner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/bannerTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome back to "
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/banner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</RelativeLayout>

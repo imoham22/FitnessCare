@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".salmon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/food"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/salmon" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/tutorial"
+            android:layout_height="677dp">
+
+            <RelativeLayout
+                android:id="@+id/pushUps"
+                android:layout_width="wrap_content"
+                android:layout_height="654dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cardwhitebackground">
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:padding="13dp"
+                    android:text="Soy Salmon and Ginger Recipe"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+
+                <ImageView
+                    android:layout_width="44dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_baseline_recipe" />
+
+                <TextView
+                    android:id="@+id/steptitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:padding="5dp"
+                    android:text="Step 1"
+                    android:textColor="@color/black"
+                    android:textSize="19dp"></TextView>
+
+                <TextView
+                    android:id="@+id/step1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/steptitle"
+                    android:padding="10dp"
+                    android:text="Heat oven to 180°C/160°F. Mix the soy sauce, vinegar, ginger, garlic, and some black pepper in a bowl before preparing the vegetables. The salmon fillets should be added, covered, and marinated for 10 minutes at room temperature. After Tear two sheets of baking parchment into pieces that are large enough to fit the fish and veggies inside and place them on a baking sheet."
+                    android:textColor="@color/black"
+                    android:textSize="17dp"></TextView>
+
+                <TextView
+                    android:id="@+id/steptitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/step1"
+                    android:padding="5dp"
+                    android:text="Step 2"
+                    android:textColor="@color/black"
+                    android:textSize="19dp"></TextView>
+
+                <TextView
+                    android:id="@+id/step2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/steptitle2"
+                    android:padding="10dp"
+                    android:text="Place the veggies in the middle of the paper and top each with a salmon fillet that has been marinated and a slice of red pepper. Pour half of the leftover marinade over each fillet of salmon and fold the parchment edges up over the salmon, enclosing the fish in a package."
+                    android:textColor="@color/black"
+                    android:textSize="17dp"></TextView>
+
+                <TextView
+                    android:id="@+id/steptitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/step2"
+                    android:padding="5dp"
+                    android:text="Step 3"
+                    android:textColor="@color/black"
+                    android:textSize="19dp"></TextView>
+
+                <TextView
+                    android:id="@+id/step3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/steptitle3"
+                    android:padding="5dp"
+                    android:text="Roast the salmon for 20 to 25 minutes, or until it just flakes and is just cooked through. If desired, serve the fish in the bundle with some cauliflower rice or ordinary rice. "
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bar"
+            android:layout_below="@+id/tutorial"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                       Ingredients"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:id="@+id/ingredients"
+                android:src="@drawable/ic_baseline_menu_book_24" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/bar">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

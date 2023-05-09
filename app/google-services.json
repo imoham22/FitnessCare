@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "210815319804",
+    "firebase_url": "https://fir-895b0-default-rtdb.firebaseio.com",
+    "project_id": "fir-895b0",
+    "storage_bucket": "fir-895b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210815319804:android:968f5a13702c2f32fd2179",
+        "android_client_info": {
+          "package_name": "com.example.customquizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210815319804-nm5o5loi641h8t24uv41qefqrnl518r6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgDuGmZUCdAPbHtXt36eCbEkj7mAwCRvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210815319804-nm5o5loi641h8t24uv41qefqrnl518r6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

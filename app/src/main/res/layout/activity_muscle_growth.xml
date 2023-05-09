@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/cut_card_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MuscleGrowth">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/banner"
+            android:text="Fitness Care"
+            android:textSize="60dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/bannerDescription"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_height="wrap_content"
+            android:text="The start to a Healthy Life"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/banner" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/tutorial"
+            android:layout_height="677dp">
+
+            <RelativeLayout
+                android:id="@+id/pushUps"
+                android:layout_width="wrap_content"
+                android:layout_height="634dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cardwhitebackground">
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:padding="13dp"
+                    android:text="What makes a Good Diet?"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+
+                <ImageView
+                    android:layout_width="44dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_baseline_fitness_center_24" />
+
+                <TextView
+                    android:id="@+id/steptitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:text="Types of Muscle Growth Diets"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"></TextView>
+
+                <TextView
+                    android:id="@+id/step1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/steptitle"
+                    android:padding="10dp"
+                    android:text="High-Protein Diet - Since protein supplies the building blocks for muscular development, a high-protein diet is crucial for muscle growth. Aim for a daily protein intake of at least 1 gramme per pound of body weight. Fish, eggs, dairy products, and lean meats are all excellent sources of protein. Protein is essential when trying to gain muscle"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:id="@+id/step4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/step1"
+                    android:padding="10dp"
+                    android:text="High-Calorie Diet - You must be in a calorie surplus, or consume more calories than you expend, in order to grow muscle. You may do this by eating a high-calorie diet, which gives your body the fuel it needs to develop muscle."
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:id="@+id/steptitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/step4"
+                    android:padding="5dp"
+                    android:text="Creatine - This is a substance you can intake that can help build stronger and more muscle. It may be obtained as a dietary supplement in addition to being present in fish and red meat. Creatine offers no harm and is natural."
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:id="@+id/step2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/steptitle2"
+                    android:padding="6dp"
+                    android:text="Important Notes"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"></TextView>
+
+                <TextView
+                    android:id="@+id/weight3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/step2"
+                    android:padding="6dp"
+                    android:text="When trying to gain muscle it's important to eat a lot, however it is important that you still consume only healthy calories, specifically healthy fats and eating periods should be during optimal periods, for instance after a workout and always stay hydrated."
+                    android:textColor="@color/black"
+                    android:textSize="15dp"></TextView>
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bar"
+            android:layout_below="@+id/tutorial"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                           Diet Page"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:id="@+id/dietPage"
+                android:src="@drawable/ic_baseline_food_bank_24" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/bar">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

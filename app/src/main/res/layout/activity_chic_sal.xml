@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChiaOats">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/food"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/salad" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/tutorial"
+            android:layout_height="677dp">
+
+            <RelativeLayout
+                android:id="@+id/pushUps"
+                android:layout_width="wrap_content"
+                android:layout_height="668dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cardwhitebackground">
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:padding="13dp"
+                    android:text="Chicken Salad Recipe"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+
+                <ImageView
+                    android:layout_width="44dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_baseline_recipe" />
+
+                <TextView
+                    android:id="@+id/steptitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:padding="5dp"
+                    android:text="Step 1"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:id="@+id/step1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/steptitle"
+                    android:padding="10dp"
+                    android:text="Preheat to 200°C/180°F/gas 6 In a roasting pan, place the celeriac, spray with 2 tbsp oil, and top with fennel seeds. When the food is mildly blackened, season it and bake it for 45 minutes, stirring halfway through."
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"></TextView>
+
+                <TextView
+                    android:id="@+id/steptitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/step1"
+                    android:padding="5dp"
+                    android:text="Step 2"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:id="@+id/step2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/steptitle2"
+                    android:padding="10dp"
+                    android:text="Put the spring onions in a dry pan and sauté them over high heat for 3 to 4 minutes, stirring periodically, until they begin to sear. Do this while the celeriac cooks. On your work table, lay down two huge foil sheets. After dividing the spring onions among the foil sheets, top with the fish, garlic, and courgette that have been shredded. Add seasoning, 1 tbsp of the remaining olive oil, and lemon juice. The foil's edges should be scrunched together to produce a seal and two packages. Bake the parcels for 10 to 12 minutes after placing them on a baking sheet."
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"></TextView>
+
+                <TextView
+                    android:id="@+id/steptitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/step2"
+                    android:padding="5dp"
+                    android:text="Step 3"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:id="@+id/step3"
+                    android:layout_width="match_parent"
+                    android:layout_height="133dp"
+                    android:layout_below="@id/steptitle3"
+                    android:padding="5dp"
+                    android:text="When the celeriac is finished cooking, mash the pieces using a fork or potato masher and season well. Place the mashed celeriac on plates, then open the fish packets with caution (the contents will be hot), and delicately place them next to the celeriac on the dishes."
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"></TextView>
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tutorial"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                       Ingredients"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:id="@+id/ingredients"
+                android:src="@drawable/ic_baseline_menu_book_24" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/bar">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cut_card_background"
+    tools:context=".weightOut">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:src="@drawable/ic_baseline_keyboard_backspace_24"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="35dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:padding="0dp"
+                android:src="@drawable/ic_baseline_home_24"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fitness Care"
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"
+                android:textStyle="bold"
+                android:padding="13dp"
+                android:layout_centerVertical="true"
+                android:textSize="25dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercises with Weights"
+            android:textSize="24dp"
+            android:padding="10dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <RelativeLayout
+                android:id="@+id/bicep"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cardwhitebackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Bicep Curl"
+                    android:textColor="@color/black"
+                    android:textSize="27dp"></TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Bicep workout"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bicepcurl">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <RelativeLayout
+                android:id="@+id/tricep"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cardwhitebackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="17dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Tricep Extensions"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"></TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Tricep workout"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tricepexten">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <RelativeLayout
+                android:id="@+id/chestp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cardwhitebackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Chest Press"
+                    android:textColor="@color/black"
+                    android:textSize="27dp"></TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Upperbody chest workout"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"></TextView>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="107dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/chest">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <RelativeLayout
+                android:id="@+id/chestf"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cardwhitebackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Chest fly"
+                    android:textColor="@color/black"
+                    android:textSize="27dp"></TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Upperbody chest workout"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="119dp"
+                android:layout_height="104dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/chestfly">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <RelativeLayout
+                android:id="@+id/shoulder"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cardwhitebackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Shoulder press"
+                    android:textColor="@color/black"
+                    android:textSize="27dp"></TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Shoulder workout"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/shoulder">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
